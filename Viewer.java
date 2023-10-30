@@ -13,11 +13,11 @@ public class Viewer
                         break;
 
                     case Maze.WALL:
-                        System.out.print("##");
+                        System.out.print("**");
                         break;
 
                     case Maze.START:
-                        System.out.print("^^");
+                        System.out.print("__");
                         break;
 
                     case Maze.END:
